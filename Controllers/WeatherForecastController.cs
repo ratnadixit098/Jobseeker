@@ -8,8 +8,8 @@ namespace Jobseeker.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };    nhjghjgjh
+            "Freezing", "Bracing", "", "Cool", "Mild", "", "Balmy", "Hot", "Sweltering", "Scorching"
+        }; 
 
         private readonly ILogger<WeatherForecastController> _logger;
 
